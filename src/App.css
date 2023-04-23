@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+.page {
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
+  height: 50px;
+  background-color: aqua;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 0 30px;
+}
+
+.links {
+  position: absolute;
+  right: 0;
+}
+
+.hero-content {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.hero-img {
+  margin: auto;
+}
+
+#skills {
+  background-color: brown;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#skills h2 {
+  text-align: center;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.skills {
+  display: flex;
+  flex-direction: row;
+  padding: 30px 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.skill {
+  background-color: aliceblue;
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  transition: ease-in-out 0.5s;
+}
+
+.skill .content {
+  padding: 0 10px;
+}
+
+
+.skill img {
+  width: 100%
+}
+
+.skill:hover {
+  transform: scale(1.01);
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+#courses {
+  padding-top: 30px;
+}
+
+#courses h2 {
+  text-align: center;
+  color: brown;
+}
+
+.course {
+  background-color: brown;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: 20px auto;
+  color: white;
+}
+
+.course img {
+  height: 100%;
+}
+
+.course .content {
+  padding: 15px;
 }
