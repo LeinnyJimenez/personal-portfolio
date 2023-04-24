@@ -13,6 +13,8 @@ const Courses = () => {
                     })
                 }
             </div>
+
+            <p>Hundreds of hours of Youtube tutorials and Google researches...</p>
         </div>
     )
 }

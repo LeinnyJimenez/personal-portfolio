@@ -3,7 +3,14 @@ import diligente from './assets/diligente.jpg';
 import versatilidad from './assets/versatilidad.jpg'
 
 import nicolasCurso from './assets/nicolas-curso.jpg';
-import anyelaCurso from './assets/anyela-curso.jpg'
+import anyelaCurso from './assets/anyela-curso.jpg';
+import maximilianCurso from './assets/maximilian-curso.jpg'
+
+import nicolas from './assets/nicolas.jpg';
+import angela from './assets/angela.jpg';
+import maximilian from './assets/maximilian.png';
+import john from './assets/John.png';
+import fernando from './assets/fernando.jpg'
 
 
 export const links = [
@@ -29,7 +36,7 @@ export const skills = [
     {
         id: '3',
         img: versatilidad,
-        title: 'versatility',
+        title: 'versatile',
         description: 'Also, working with different courses and tutorials has taught how to work wiht different tecnologies and versions, name conventions, file and css structure, etc.'
     }
 ];
@@ -37,18 +44,47 @@ export const skills = [
 export const courses = [
     {
         id: 1,
+        link: 'https://www.udemy.com/course/aprende-javascript-es9-html-css3-y-nodejs-desde-cero/',
         img: nicolasCurso,
         title: 'Aprende Javascript ES9, HTML, CSS3 y NodeJS desde cero',
-        instructor: { name: 'Nicolas Shurmann', img: '' },
+        instructor: { name: 'Nicolas Shurmann', img: nicolas },
         completed: true,
         technologies: ['HTML', 'CSS', 'JavaScript', 'React JS', 'Node JS', 'APIs Rest', 'Serverless', 'Mongo DB']
     },
     {
         id: 2,
+        link: 'https://www.udemy.com/course/the-complete-web-development-bootcamp/',
         img: anyelaCurso,
         title: 'The Complete 2023 Web Development Bootcamp',
-        instructor: { name: 'Dr. Angela Yu', img: '' },
+        instructor: { name: 'Dr. Angela Yu', img: angela },
         completed: true,
         technologies: ['HTML', 'CSS', 'Bootstrap', 'JavaScript', 'React JS', 'Node JS', 'APIs Rest', 'Git and GitHub']
+    },
+    {
+        id: 3,
+        link: 'https://www.udemy.com/course/react-the-complete-guide-incl-redux/',
+        img: maximilianCurso,
+        title: 'React - The Complete Guide (incl Hooks, React Router, Redux)',
+        instructor: { name: 'Maximilian Schwarzmuller', img: maximilian },
+        completed: true,
+        technologies: ['React', 'React Hooks', 'Styled Components', 'Context API', 'Http Request', 'TypeScript', 'Custom Hooks', 'React Router']
+    },
+    {
+        id: 4,
+        link: 'https://www.udemy.com/course/react-tutorial-and-projects-course/',
+        img: '',
+        title: 'React 18 Tutorial and Projects Course (2023)',
+        instructor: { name: 'John Smilga', img: john },
+        completed: false,
+        technologies: ['React', 'React Hooks', 'Styled Components', 'Context API', 'Http Request', 'Axios', 'Custom Hooks', 'React Router']
+    },
+    {
+        id: 5,
+        link: 'https://www.udemy.com/course/react-pro/',
+        img: '',
+        title: 'React PRO: Lleva tus bases al siguiente nivel',
+        instructor: { name: 'Fernando Herrera', img: fernando },
+        completed: false,
+        technologies: ['React', 'React Hooks', 'Context API', 'Http Request', 'GitHub actions', 'component patterns', 'TypeScript 100 %', 'Formik', 'Dynamic Forms', 'Lazy Load', 'npm Deply']
     },
 ]
